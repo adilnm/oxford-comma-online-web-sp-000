@@ -6,6 +6,7 @@ if(array.size==1)
   array.join(" and ")
   elsif(array.size==3)
 array.pop
+array
 
 
 end
