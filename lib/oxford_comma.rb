@@ -4,7 +4,7 @@ if(array.size==1)
   
   elsif(array.size==2)
   array.join(" and ")
-  elsif(array.size==3)
+else
 arr_pop=array.pop
 array.push("and #{arr_pop}").join(", ")
 
