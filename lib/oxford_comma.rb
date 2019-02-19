@@ -6,7 +6,7 @@ if(array.size==1)
   array.join(" and ")
   elsif(array.size==3)
 arr_pop=array.pop
-array.push("and #{arr_pop}")
+array.push("and #{arr_pop}").join(", ")
 
 
 end
