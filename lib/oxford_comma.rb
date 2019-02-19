@@ -12,4 +12,3 @@ array.join(", ")
 
 end
 end
-puts(oxford_comma(["blue","green","black"]))
